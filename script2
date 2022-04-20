@@ -1,0 +1,20 @@
+#!/bin/bash
+
+
+echo "Faylin adini yazin"
+
+	read name
+	
+	if  grep 'hetem' $name
+
+	then
+
+	sed -i s/hetem/gotem/g $name
+else
+
+echo "dur oppan  burdan!"
+
+	fi
+
+
+
