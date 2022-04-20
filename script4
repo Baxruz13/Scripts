@@ -1,0 +1,15 @@
+#!/bin/bash
+
+name=`whoami`
+
+if [[$name == root]]
+
+then
+
+echo "Siz root qovlugunda islemelisiniz"
+
+else
+
+echo "Siz $name qovlugunda islemelisiniz"
+
+fi
