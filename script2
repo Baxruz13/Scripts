@@ -9,7 +9,7 @@ echo "Faylin adini yazin"
 
 	then
 
-	sed -i s/hetem/gotem/g $name
+	sed -i s/hetem/setem/g $name
 else
 
 echo "dur oppan  burdan!"
